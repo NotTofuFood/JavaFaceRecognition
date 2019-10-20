@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class ApplicationWindow {
 	//Create Window
 	public static void main(String[] args) {
-		JFrame f = new JFrame("Face Recegnition");
+		JFrame f = new JFrame("Face Recegnition by Not Tofu Food(Aiden Thakurdial).");
 		WindowContent wc = new WindowContent();
 		wc.declareImages();
 		f.add(wc);

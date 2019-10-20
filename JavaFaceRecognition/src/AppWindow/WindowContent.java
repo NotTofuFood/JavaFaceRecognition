@@ -33,6 +33,9 @@ public class WindowContent extends JPanel {
 		//Add Text to the Screen
 		JLabel refText = new JLabel("Reference Image");
 		JLabel faceText = new JLabel("Face Image");
+		JLabel warningText = new JLabel("Try to avoid using glasses or having your clothes get into the picture. Also this is more accurate on Adults.");
+		warningText.setBounds(0, 300, 850, 550);
+		add(warningText);
 		JLabel creditText = new JLabel("Created By: Not Tofu Food (Aiden Thakurdial)");
 		creditText.setBounds(0, 500, 750, 250);
 		creditText.setFont(font);
@@ -97,7 +100,7 @@ public class WindowContent extends JPanel {
 		
 		//Draw Text to the Screen If it Detects A Face or Not
 		if(FaceRecongnitionRunner.confirmed) {
-        if(CompareImage.percentage <= 20.99) {
+        if(CompareImage.percentage <= 21.5) {
        		faceText.setOpaque(true);
     		faceText.setFont(font2);
     		faceText.setText("Face Detected");

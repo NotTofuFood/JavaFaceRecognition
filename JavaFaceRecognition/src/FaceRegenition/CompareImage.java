@@ -71,7 +71,7 @@ public class CompareImage {
         
         //Lastly Detect if Enough Pixels are the Same
         System.out.println("Photo Difference Percent " +  percentage); 
-        if(percentage <= 20.99) {
+        if(percentage <= 21.8) {
             System.out.println("Face Detected");
         } else {
             System.out.println("Face Not Detected");
