@@ -9,6 +9,8 @@ import javax.imageio.ImageIO;
 
 public class ConvertImageToCorrectSize {
 	
+	//CREDIT TO https://www.geeksforgeeks.org/image-processing-java-set-14-comparison-two-images/
+	
 	//Convert the Image
 	public void ImageConverter(String img) {
 		File face = new File(img);
