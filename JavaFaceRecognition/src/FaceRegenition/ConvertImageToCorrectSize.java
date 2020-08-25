@@ -11,8 +11,7 @@ public class ConvertImageToCorrectSize {
 	//Convert the Image
 	public void ImageConverter(String img) {
 		File face = new File(img);
-		
-		
+			
 		BufferedImage faceConverted;
 		
 		try {
