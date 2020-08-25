@@ -1,5 +1,3 @@
-#Java Face Recognition
-
 Description: I made this for fun in Java. I did not use any librarys. Pure Java. Around 95% accurate.
 
 Side Note: Yes I am Aware Of My Spelling Mistakes With The Word Recognition 
