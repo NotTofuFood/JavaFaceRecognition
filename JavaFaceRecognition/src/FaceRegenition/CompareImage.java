@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 
 public class CompareImage {
 	//CREDIT TO https://www.geeksforgeeks.org/image-processing-java-set-14-comparison-two-images/
-	public static  double percentage;
+	public static double percentage;
 	
 	public void compare() {
     		BufferedImage imgA = null; 
