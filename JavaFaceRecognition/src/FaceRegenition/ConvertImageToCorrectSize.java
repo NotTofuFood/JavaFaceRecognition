@@ -8,9 +8,6 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class ConvertImageToCorrectSize {
-	
-	
-	
 	//Convert the Image
 	public void ImageConverter(String img) {
 		File face = new File(img);
