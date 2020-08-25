@@ -11,22 +11,22 @@ public class CompareImage {
 	public static  double percentage;
 	
 	public void compare() {
-    BufferedImage imgA = null; 
-    BufferedImage imgB = null; 
+    		BufferedImage imgA = null; 
+    		BufferedImage imgB = null; 
 
-    try
-    {
-    	//Get The images
-        File fileA = new File("res/newFace.png");
-        File fileB = new File("res/facescanner.png");
+    		try
+    		{
+    			//Get The images
+        		File fileA = new File("res/newFace.png");
+        		File fileB = new File("res/facescanner.png");
 
-        imgA = ImageIO.read(fileA); 
-        imgB = ImageIO.read(fileB); 
-    } 
-    catch (IOException e) 
-    { 
-        System.out.println(e); 
-    } 
+       			imgA = ImageIO.read(fileA); 
+        		imgB = ImageIO.read(fileB); 
+    		} 
+    		catch (IOException e) 
+    		{ 
+        		System.out.println(e); 
+    		} 
     int width1 = imgA.getWidth(); 
 
     int height1 = imgA.getHeight(); 
