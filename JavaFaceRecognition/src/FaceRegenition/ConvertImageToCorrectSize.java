@@ -32,7 +32,7 @@ public class ConvertImageToCorrectSize {
 			
 			//Change the Actual Image File and Create A New Image file for comparing
 
-				ImageIO.write(NEWbufferedConvertedImage, "png", new File("res/newFace.png"));	
+			ImageIO.write(NEWbufferedConvertedImage, "png", new File("res/newFace.png"));	
 			
 		} catch (IOException e) {
 			e.printStackTrace();
