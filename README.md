@@ -1,4 +1,4 @@
-Description: I made this for fun in Java. I did not use any librarys. Pure Java. Around 95% accurate.
+Description: I made this for fun in Java. I did not use any librarys. Pure Java. Tried to make it as accurate as possible.
 
 Side Note: Yes I am Aware Of My Spelling Mistakes With The Word Recognition 
 
